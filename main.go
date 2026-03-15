@@ -5,8 +5,14 @@ import "fmt"
 func main() {
    
 
-var a int =10
+mark:=20
 
-fmt.Println(a)
+if mark>50{
+	fmt.Println("You are passed with good mark")
+} else if mark>33{
+	fmt.Println("You are passed ")
+} else{
+	fmt.Println("You are not eligible")
+}
 
 }
